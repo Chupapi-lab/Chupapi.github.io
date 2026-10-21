@@ -1,0 +1,30 @@
+:root{--bg:#f3eee4;--paper:#fffdf8;--ink:#1d2a1f;--green:#2c5530;--green2:#3d7344;--gold:#c4a05a;--muted:#6b6458;--line:#e4d9c5;--danger:#a33b2b}
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:"Segoe UI",Georgia,serif;background:var(--bg);color:var(--ink)}
+a{color:var(--green);text-decoration:none}a:hover{color:var(--gold)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.top{background:var(--green);color:#f6f1e7;padding:14px 0;border-bottom:4px solid var(--gold)}
+.top inner,.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{font-family:Georgia,serif;font-size:22px;letter-spacing:.04em}
+.nav a{color:#f6f1e7;margin-left:16px;font-size:14px}
+.hero{padding:48px 0 24px}
+.hero h1{font-weight:400;font-size:40px;margin:0 0 8px}
+.hero p{color:var(--muted);max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;padding:10px 0 50px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 8px 20px rgba(45,40,20,.05)}
+.card h3{margin:8px 0 6px;font-weight:500}
+.price{color:var(--green);font-weight:700}
+.badge{display:inline-block;background:#e8f0e4;color:var(--green);border-radius:999px;padding:3px 10px;font-size:12px}
+.btn{display:inline-block;background:var(--green);color:#fff!important;border:0;border-radius:8px;padding:10px 16px;cursor:pointer;font-size:14px}
+.btn:hover{background:var(--green2)}
+.btn.gold{background:var(--gold);color:#1d2a1f!important}
+.btn.danger{background:var(--danger)}
+input,select,textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font:inherit;margin:6px 0 12px}
+label{font-size:13px;color:var(--muted)}
+.flash{padding:10px 12px;border-radius:8px;margin:10px 0}
+.ok{background:#e7f4ea}.err{background:#f8e4e1}
+table{width:100%;border-collapse:collapse;background:var(--paper)}
+th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;font-size:14px}
+.footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:13px}
+.leaf{font-size:42px}
+.row{display:flex;gap:24px;flex-wrap:wrap}
+.col{flex:1;min-width:260px}
